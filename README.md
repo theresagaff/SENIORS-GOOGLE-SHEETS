@@ -1,80 +1,34 @@
-# Write your headline here
+# New York’s growing senior population and its lack of resources: a disaster of numbers waiting to happen
 
-### Write your nutgraf here
+### By Theresa Gaffney
 
-Make sure your pitch answers the following questions:
+### March 20, 2020
 
-- Why this story is relevant ("So what?) and why now?
-- What is the single question your story tries to answer?
-- Why will this story resonate with your audience?
+The elderly population of New York is growing as the Baby Boomer generation ages into the over 65 age bracket. Perhaps people are snow-birding less, or otherwise deciding that the amenities available in New York are worth staying for. But there might not be enough facilities for older New Yorkers in certain areas.
 
-What else has been done on this topic (provide links)? How is your angle different or fresh?
+Let’s break it down. The below graph plots out projected changes in the New York population by age group.
 
-- [Related headline (NYT)](https://www.nytimes.com/2020/03/09/upshot/coronavirus-oil-prices-bond-yields-recession.html)
-- [Related headline (NPR)](https://www.nytimes.com/2020/03/09/upshot/coronavirus-oil-prices-bond-yields-recession.html)
-- [Related headline (WNYC)](https://www.nytimes.com/2020/03/09/upshot/coronavirus-oil-prices-bond-yields-recession.html)
+The age groups highlighted in red are all age groups over 65 years of age, in four year groupings. These populations trend up and are projected to grow over the next few decades, while some other populations see small decreases or a less consistent eb and flow.
 
-Describe how and where you found the data with links. Put the raw data (csv, xls, pdf) in a folder called `data` in this folder, and provide a [link](https://docs.google.com/spreadsheets/d/1IdeVJv7SpbKwD1jMfOlXvIpx-ZwitU-3Y6c4iLqGu7c/edit#gid=1257216346) to your Google Sheet. Show your data work in this Google Sheet – this could be sorting, aggregating, filtering, pivot tables, vlookups, etc.
+The elderly population will grow in every borough over the next few decades, as shown above. Brooklyn has and will sustain the largest number of elderly community members, with Queens and Manhattan not far behind. But where are the resources for these community members?
 
-Write up at least one or up to three findings from your analysis based on the data you found.
+The map above shows the concentration of all contracted senior centers registered with the city’s Department of Aging as provided by NYC Open Data. Senior centers are important gathering places where older community members can connect and socialize and learn.
 
-- Finding 1
-- Finding 2
-- Finding 3
+The data shows that Brooklyn, which in 2020 has the most older residents and the most senior centers, provides one senior center per every 4,137 senior citizens. In Manhattan, the second highest for each category, that drops to one per every 3,918.
 
-Who are some potential human sources you could reach out to for more info?
+Boroughs with smaller numbers of older residents suffer even worse ratios. In Queens, there’s one senior center for every 6,138 people. Staten Island is home to the least number of senior citizens and therefore has only a quarter of the number of senior centers as the borough with the next lowest. There, they have one center per every 6,470 senior citizens.
 
-What is the maximum (best) story possible? What's the minimum (fallback) story if your hypothesis doesn't prove out?
+The Bronx has the best rate of one center per 3,507 senior citizens—almost half the Staten Island rate.
 
-## How to publish and submit your project
+If the population of those aged 65+ grows at the rate that the city predicts they will and no senior centers are added, the ratio for all boroughs will shoot up. By 2040, there would be one senior center in Staten Island available one for over 7,000 elderly residents.
 
-1. Make sure you have navigated to your `data-journalism` folder with your terminal first. Clone a fresh copy of this template.
+Of course, not every senior wants to participate in senior center activities. According to the city, 166,882 people participated in senior center activities across the entire city in 2018. That’s only about 14% of the elderly population.
 
-   ```
-   git clone git@github.com:JOUR73351/google-sheets-project.git NAME-OF-YOUR-PROJECT-HERE
-   ```
+Still, the New York Department of Aging is trying to combat the lack of resources for seniors. The city introduced “Plan 2025” a couple years ago, to enhance the facilities for older New Yorkers that already exist in addition to creating more by the year 2025.
 
-2. Remove my git tracking from the project
+For more info on the data, see the Google Sheets [here](https://docs.google.com/spreadsheets/d/1T9lM8UP-I_xfB0b6m-wGg8ml8LSLNuQXagdfzErptOU/edit?usp=sharing) and [here](https://docs.google.com/spreadsheets/d/1dWUdX4IGTDeKMTH6H2fGMSmAigUihpH4U2Tz7VDHX_E/edit?usp=sharing).
 
-   ```
-   rm -rf .git
-   ```
+Related stories:
 
-3. Create a new repository on GitHub called `NAME-OF-YOUR-PROJECT-HERE` with the following settings.
-   <br>
-   <img src="assets/newrepo.png" width="500">
-
-4. Run these git commands to initialize the repo. Make sure you've checked `ssh`.
-
-   ```
-   git init
-   git add -A
-   git commit -m "first commit"
-   git remote add origin git@github.com:YOUR-USERNAME-HERE/YOUR-REPO-HERE.git
-   git push -u origin master
-   ```
-
-5. Write your pitch in `README.md`.
-
-6. Write your story in and add your assets and charts to `index.html`. Feel free to play around with and change the styles in `style.css`, but you are not required to. Delete the code that you don't need for your story. The story itself should be no less than 150 words and include at least one chart from Datawrapper. You can embed a Datawrapper chart in your story by copying the embed code into your html as I have done in `index.html.`
-   <br>
-   <img src="assets/datawrapper.png" width="500">
-
-7. You can preview a local version of your story by running a python server.
-
-   ```
-   python -m SimpleHTTPServer 8000
-   ```
-
-   Then, navigate to `http://localhost:8000` in your browser.
-
-8. To save a version of your story on GitHub, run the following git commands.
-
-   ```
-   git add -A
-   git commit -m "YOUR-COMMIT-MESSAGE-HERE"
-   git push
-   ```
-
-9. To publish, go to the settings of your GitHub repo, scroll down to GitHub Pages, and configure the source to the master branch.
-   ![GitHub Pages](assets/ghpages.png)
+- NYT: [‘We Need Each Other’: Seniors Are Drawn to New Housing Arrangements](https://www.nytimes.com/2019/09/27/health/seniors-housing-sharing-villages.html)
+- Gothamist: [NYC's Cooling Center Network Strands Nearly A Third Of City's Seniors](https://gothamist.com/news/nycs-cooling-center-network-strands-nearly-a-third-of-citys-seniors)
